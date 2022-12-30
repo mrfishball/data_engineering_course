@@ -11,6 +11,8 @@ python = "3.9.1"
 notebook = "^6.5.2"
 pyarrow = "^10.0.1"
 pandas = "^1.5.2"
+sqlalchemy = "^1.4.45"
+psycopg2 = "^2.9.5"
 
 
 [build-system]
