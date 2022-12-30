@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data-engineering-course"
+version = "0.1.0"
+description = "data engineering"
+authors = ["Steven Tuet Piu Kwok <skwok@8thlight.com>"]
+readme = "README.md"
+packages = [{include = "data_engineering_course"}]
+
+[tool.poetry.dependencies]
+python = "3.9.1"
+notebook = "^6.5.2"
+pyarrow = "^10.0.1"
+pandas = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

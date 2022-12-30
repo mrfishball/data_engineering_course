@@ -129,3 +129,5 @@
 # .pyre/
 #
 ny_taxi_postgres_data/
+*.parquet
+.ipynb_checkpoints/
